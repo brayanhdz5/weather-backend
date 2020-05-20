@@ -1,0 +1,36 @@
+{
+  "name": "weather-backend",
+  "version": "1.0.0",
+  "description": "node weather app ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brayanhdz5/weather-backend.git"
+  },
+  "keywords": [
+    "Node.JS",
+    "Mysql",
+    "Sequelize"
+  ],
+  "author": "Brayanhdz5 <brayan.hernandez1222@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brayanhdz5/weather-backend/issues"
+  },
+  "homepage": "https://github.com/brayanhdz5/weather-backend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "node-fetch": "^2.6.0",
+    "sequelize": "^5.21.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
